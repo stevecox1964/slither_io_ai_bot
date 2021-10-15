@@ -1,5 +1,8 @@
 # slither_io_ai_bot
-Experimenting with a slither.io bot 
+Experimenting with a slither.io bot
+
+YouTube:
+https://youtu.be/CvL662NG96Y
 
 I have weaved together two youtube examples from ClarityCoder and The real GM that allow me to play a random slither.io
 game over and over. The AI is really not AI/ML at this point, but I am working on bringing that together.
