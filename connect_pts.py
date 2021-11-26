@@ -16,7 +16,7 @@ def find_nn(point, neighborhood):
         float array: The point that is the nearest neighbor of the initial point.
         integer: Index of the nearest neighbor inside the neighborhood list
     """
-    print(type(point))
+    #print(type(point))
     min_dist = float('inf')
     nn = neighborhood[0]
     nn_idx = 0
@@ -135,8 +135,8 @@ if __name__ == "__main__":
     new_points = []
     for point in points:
         new_points.append(tuple(point))
-    points = new_points
 
+    points = new_points
     point_count = len(points)
     
     #board = np.ones((580, 512, 3), dtype = np.uint8) * 255

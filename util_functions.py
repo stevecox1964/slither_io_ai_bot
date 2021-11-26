@@ -198,13 +198,7 @@ def open_and_size_browser_window(width, height, x_pos = 0, y_pos = 0, url = 'htt
 
     return driver
 
-# this function moves the mouse to a location on a circle with radius = radius
-# The user specifies to position on the circle is radians
-# This is used for steering the worm
-def move_to_radians(radians, radius = 150):
-    mouse.move_to(window_center_x + 150 * math.cos(radians),
-                  window_center_y + 150 * math.sin(radians))
-    return radians
+
 
 # this function determines the direction that the worm is currently moving based on the mouse's position
 def get_direction():
